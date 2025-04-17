@@ -1,0 +1,182 @@
+/* src/styles/main.css */
+
+/* Reset default browser styling */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e293b;
+    /* slate-800 */
+    color: #e2e8f0;
+    /* slate-200 */
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Ensure full height layout */
+html,
+body {
+    height: 100%;
+}
+
+/* Smooth scrolling for a modern feel */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styling for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Basic button styling */
+button {
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+    background-color: #3b82f6;
+    /* blue-500 */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2563eb;
+    /* blue-600 */
+}
+
+/* Remove default anchor tag styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Global container for centering content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Utility classes for margin, padding, etc. */
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.pt-6 {
+    padding-top: 1.5rem;
+}
+
+.pb-6 {
+    padding-bottom: 1.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Specific Section Styling */
+.section {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+}
+
+/* Heading styles */
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* Project cards */
+.project-card {
+    background-color: #2d3748;
+    /* slate-700 */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.project-description {
+    color: #e2e8f0;
+    /* slate-200 */
+    margin-bottom: 10px;
+}
+
+.tech-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tech-tag {
+    background-color: #3b82f6;
+    /* blue-500 */
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.875rem;
+}
+
+/* Custom Link */
+.link {
+    color: #3b82f6;
+    /* blue-500 */
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #2563eb;
+    /* blue-600 */
+}
